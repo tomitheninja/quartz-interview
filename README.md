@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quartz interview takehome
 
-## Getting Started
+## Tasks
 
-First, run the development server:
+### Create a simple Next.js project from scratch
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`npx create-next-app@latest quartz-interview`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Dev config
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I reused a linter config from one of my previous project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is probably too much linting for a shelf project, but at least I am familiar with it.
 
-## Learn More
+I created a Dockerfile while npm install was running.
 
-To learn more about Next.js, take a look at the following resources:
+## Use the API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I opened the link, checked intro showcase and products rest api/pages.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To discover what platzi is I went to it's home page.
 
-## Deploy on Vercel
+I searched on npm a platzi-api client, but couldn't find one.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+However, I found an openapi doc for it so I generated a client using openapi-generator.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
