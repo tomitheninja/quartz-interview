@@ -24,3 +24,8 @@ I searched on npm a platzi-api client, but couldn't find one.
 
 However, I found an openapi doc for it so I generated a client using openapi-generator.
 
+I took a longer break here, eat dinner.
+
+## Building the skeleton
+
+I 
