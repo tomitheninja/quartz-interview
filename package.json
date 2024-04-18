@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "generate:platzi": "npx @openapitools/openapi-generator-cli generate -i ./platzi.openapi.json -g typescript-fetch -o ./generated/platzi/"
+    "generate:platzi": "npx @openapitools/openapi-generator-cli generate -i ./platzi.openapi.json -g typescript-fetch -o ./src/generated/platzi/"
   },
   "dependencies": {
     "next": "14.2.2",
